@@ -27,7 +27,7 @@ class Portfolio:
     def show_progress(self):
         info = self.data["progress"]
         print(f"  Точка А    : {info['point_a']}")
-        print(f"  Точка Б    : {info['pont_b']}")
+        print(f"  Точка Б    : {info['point_b']}")
 
     def show_hobby(self):
         info = self.data["hobby"]
