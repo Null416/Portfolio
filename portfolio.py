@@ -31,7 +31,7 @@ class Portfolio:
 
     def show_hobby(self):
         info = self.data["hobby"]
-        hobbies = info['hobby']
+        hobbies = info["text"]
         if isinstance(hobbies, list):
             print("  Хобби:")
             for i, h in enumerate(hobbies, 1):
